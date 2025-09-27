@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Hightlight from "./ui/Highlight";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Highlight from "./ui/Highlight";
 
 const Highlights = () => {
   return (
@@ -11,20 +11,20 @@ const Highlights = () => {
             Why choose <span className="purple">Library</span>
           </h2>
           <div className="highlight__wrapper">
-            <Hightlight
+            <Highlight
               icon={<FontAwesomeIcon icon="bolt" />}
               title="Easy and Quick"
               para="Get access to the book you purchased online instantly."
             />
-            <Hightlight
+            <Highlight
               icon={<FontAwesomeIcon icon="book-open" />}
               title="10,000+ Books"
-              para="Library has books in all your favorite categories."
+              para="Library has books in all your favourite categories."
             />
-            <Hightlight
+            <Highlight
               icon={<FontAwesomeIcon icon="tags" />}
-              title="Afforable"
-              para="Get your hands on popular books for a little as $10."
+              title="Affordable"
+              para="Get your hands on popular books for as little as $10."
             />
           </div>
         </div>
